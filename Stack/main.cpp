@@ -1,7 +1,3 @@
-
-
-/***** Program using a stack to convert from the Base 10 rep of an integer to base 2.....D. Pinto...CS 501 Spring 2018........****/
-
 #include <iostream>
 using namespace std;
 
