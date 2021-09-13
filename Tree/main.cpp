@@ -151,6 +151,7 @@ int onechildcount(treenode_type *r)
         return onechildcount((*r).left) + onechildcount((*r).right);
 }
 
+
 void findleaflevels(treenode_type *r)
 {
     if (r != NULL)
@@ -168,6 +169,8 @@ void findleaflevels(treenode_type *r)
         findleaflevels((*r).right);
     }
 }
+
+//in order tree traversal 
 void inorder(treenode_type *r)
 {
     if (r != NULL)
@@ -177,6 +180,8 @@ void inorder(treenode_type *r)
         inorder((*r).right);
     }
 }
+
+//preoder tree traversal
 void preorder(treenode_type *r)
 {
     if (r != NULL)
@@ -186,6 +191,8 @@ void preorder(treenode_type *r)
         inorder((*r).right);
     }
 }
+
+//postorder tree traversal
 void postorder(treenode_type *r)
 {
     if (r != NULL)
